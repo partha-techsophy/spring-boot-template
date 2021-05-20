@@ -45,6 +45,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation "org.mapstruct:mapstruct-jdk8:${mapstructVersion}"
     implementation "org.liquibase:liquibase-core"
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     //Must be defined before the lombok annotationProcessor
     annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
