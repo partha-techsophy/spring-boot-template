@@ -1,5 +1,5 @@
 FROM openjdk:13-jdk-alpine
-MAINTAINER scubetech
+MAINTAINER techsophy
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 ARG JAR_FILE=build/libs/*.jar
